@@ -48,7 +48,7 @@ The dataset was split chronologically:
 
 The model was evaluated against a zero-return baseline using Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
 
-# Key Findings
+**Key Findings**
 
 - AAPL had the highest cumulative return during the analyzed period.
 - NVDA showed the highest daily volatility overall.
