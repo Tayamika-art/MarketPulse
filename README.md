@@ -1,17 +1,17 @@
-# Overview
+ Overview
 
 MarketPulse is a quantitative financial data analysis project built with Python.
 
 The project analyzes historical stock market data to explore investment returns, volatility, correlations, and basic forecasting methods.
 
-# Assets Analyzed
+ Assets Analyzed
 
 - Apple (AAPL)
 - Microsoft (MSFT)
 - NVIDIA (NVDA)
 - S&P 500 ETF (SPY)
 
-# Technologies Used
+ Technologies Used
 
 - Python
 - Pandas
@@ -22,7 +22,7 @@ The project analyzes historical stock market data to explore investment returns,
 - Yahoo Finance (yfinance)
 - Jupyter Notebook
 
-# Analysis Performed
+ Analysis Performed
 
 1. Historical Performance: Compared adjusted stock prices and calculated cumulative returns.
 2. Daily Returns: Measured average daily returns for each asset.
@@ -31,7 +31,7 @@ The project analyzes historical stock market data to explore investment returns,
 5. Yearly Performance: Compared returns and volatility across 2024, 2025, and 2026.
 6. Forecasting: Tested a 20-day moving average and a linear regression model.
 
-# Forecasting Methodology
+ Forecasting Methodology
 
 The linear regression model focused on AAPL.
 
@@ -56,7 +56,7 @@ The model was evaluated against a zero-return baseline using Mean Absolute Error
 - NVDA and SPY had the strongest positive return correlation.
 - The best return-to-volatility ratio varied across the years.
 
-# Forecasting Results
+ Forecasting Results
 
 The AAPL linear regression model produced the following test results:
 
@@ -72,14 +72,14 @@ The linear regression model slightly outperformed the zero-return baseline in MA
 
 However, its directional accuracy was below 50%, showing that it struggled to predict whether AAPL would rise or fall.
 
-# Limitations
+ Limitations
 
 - The analysis uses historical data, which does not guarantee future performance.
 - The forecasting model is relatively simple.
 - The model was tested on one holdout period.
 - The small improvement over the baseline does not establish reliable predictive power.
 
-# How to Run
+ How to Run
 
 1. Clone or download this repository.
 2. Install the required libraries:
@@ -87,10 +87,10 @@ However, its directional accuracy was below 50%, showing that it struggled to pr
    '''bash'''
    pip install pandas numpy matplotlib seaborn yfinance scikit-learn jupyter
 
-# Project Structure
+ Project Structure
 
 MarketPulse/
 └── market_analysis.ipynb
 
-# Author: Tayamika Phiri
+ Author: Tayamika Phiri
 
